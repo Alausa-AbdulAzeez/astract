@@ -1,0 +1,83 @@
+.footerWrapper {
+  color: white;
+  box-sizing: border-box;
+  padding: 64px;
+  height: 360px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .col1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 60px;
+    max-width: 353px;
+
+    .footerHernaLogo {
+      width: 183px;
+      height: 32px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 12px;
+    }
+  }
+
+  .col2,
+  .col3,
+  .col4 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+
+    :first-child {
+      font-weight: 700;
+    }
+  }
+
+  .col4 {
+    .footerIconsWrapper {
+      width: 120px;
+      height: 24px;
+      display: flex;
+      justify-content: space-between;
+
+      .iconWrapper {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .icon {
+          width: 12px;
+          height: 12px;
+        }
+      }
+
+      .instaWrapper {
+        background: linear-gradient(
+          43.94deg,
+          #eea054 16.16%,
+          #d64763 50.11%,
+          #b62a99 83.68%
+        );
+      }
+
+      .twitterWrapper {
+        background: #55ace3;
+      }
+
+      .whatsappWrapper {
+        background: #48c95f;
+      }
+    }
+  }
+}

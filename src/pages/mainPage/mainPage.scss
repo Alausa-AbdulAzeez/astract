@@ -1,0 +1,10 @@
+.mainAndFooterWrapper {
+  background: var(--main-color);
+
+  .main {
+    background: var(--main-color);
+    width: 100%;
+    padding: 0px 64px;
+    color: var(--white-color);
+  }
+}

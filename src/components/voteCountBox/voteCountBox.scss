@@ -1,0 +1,46 @@
+.voteCountBox {
+  width: 369px;
+  height: 156px;
+  background: #131726;
+  border: 1px solid #212842;
+  border-radius: 6px;
+  position: absolute;
+  padding: 15px 15px 15px 21px;
+  right: 50%;
+  top: 40%;
+
+  .voteCountBoxTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+
+    .voteCountText {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #ffffff83;
+    }
+    .fullListText {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 17px;
+
+      color: #e5b805;
+    }
+  }
+}
+
+.VoteCountBoxPartyVotes {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}

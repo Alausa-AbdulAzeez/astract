@@ -1,0 +1,220 @@
+.hero {
+  min-height: 100vh;
+  height: auto;
+  margin-top: 20px;
+  padding-bottom: 66px;
+
+  .heroTop {
+    display: flex;
+    justify-content: space-between;
+
+    .heroTopLeft {
+      .title {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      p {
+        font-size: xx-small;
+        margin-top: 10px;
+        color: var(--main-yellow-color);
+
+        span {
+          color: var(--white-color);
+        }
+      }
+    }
+
+    .heroTopRight {
+      display: flex;
+      justify-content: space-between;
+      .stageRelative {
+        .selectWrapper {
+          display: flex;
+          justify-content: space-between;
+          box-shadow: -1px 1px 2px 0px rgba(40, 44, 68, 0.39);
+          align-items: center;
+          min-width: 250px;
+          border-radius: 5px;
+          background: var(--main-color-darker);
+          margin-bottom: 10px;
+          border: 1px solid #252b46;
+
+          input {
+            border: none;
+            background-color: transparent;
+            outline: none;
+            padding: 10px;
+            color: silver;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 400;
+            width: 80%;
+
+            &:focus {
+              border: none;
+            }
+          }
+          .arrowDownIcon {
+            margin-right: 10px;
+          }
+        }
+        .selectMiddle {
+          margin: 0 20px;
+        }
+        .dropdownUl {
+          height: auto;
+          background-color: var(--main-color-darkestt);
+          font-size: x-small;
+          color: rgb(215, 215, 215);
+          box-shadow: -1px 1px 2px 0px rgba(40, 44, 68, 0.39);
+          border: 1px solid #212842;
+          border-radius: 6px;
+          position: absolute;
+          width: 250px;
+          z-index: 4;
+
+          li {
+            padding: 10px;
+            margin: 0 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            border-bottom: 0.01px solid #24283a;
+
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .heroBottom {
+    width: 100%;
+    border-top: 0.01px solid #24283a;
+    margin-top: 20px;
+
+    .otherLinesDisplayWrapper {
+      display: flex;
+      gap: 100px;
+    }
+
+    .lineDisplayWrapper {
+      width: 100%;
+
+      .title {
+        margin-bottom: 25px;
+      }
+
+      .lineDisplayTop {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        .line {
+          height: 16px;
+          position: relative;
+          margin-bottom: 100px;
+        }
+      }
+    }
+
+    .mapContainer {
+      width: 100%;
+      height: 728px;
+
+      //   background-color: red;
+      box-shadow: -1px 1px 2px 0px rgba(40, 44, 68, 0.39);
+      background-color: var(--main-color-darkest);
+      border-radius: 20px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #393c4a;
+      overflow: hidden;
+    }
+    .preElectionTableWrapper {
+      width: 100%;
+      height: 728px;
+
+      //   background-color: red;
+      box-shadow: -1px 1px 2px 0px rgba(40, 44, 68, 0.39);
+      background-color: var(--main-color-darkest);
+      border-radius: 20px;
+
+      // border: 1px solid #393c4a;
+    }
+    .mapAndPieChartWrapper {
+      display: flex;
+      margin-top: 30px;
+      width: 100%;
+      height: 428px;
+      box-shadow: -1px 1px 2px 0px rgba(40, 44, 68, 0.39);
+      background-color: var(--main-color-darkest);
+      border-radius: 20px;
+      border: 1px solid #393c4a;
+      padding: 45px 30px;
+      gap: 20px;
+
+      .doughnutWrapper {
+        width: 400px;
+        height: 337px;
+        background: #1b1f30;
+        border: 1px solid #272935;
+        border-radius: 13px;
+      }
+      .smallMapWrapper {
+        width: 500px;
+        height: 337px;
+        background: #1b1f30;
+        border: 1px solid #272935;
+        border-radius: 13px;
+        padding: 22px 33px;
+
+        p {
+          font-weight: 400;
+          font-size: 14px;
+        }
+      }
+      .othersWrapper {
+        // width: ;
+        height: 337px;
+        background: #1b1f30;
+        border: 1px solid #272935;
+        border-radius: 13px;
+        flex: 1;
+        padding: 0px 27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        span {
+          .genderIcon {
+            margin-left: 5px;
+          }
+        }
+
+        .totalElected {
+          .totalElectedTitle,
+          .maleTitle,
+          .maleTitle {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+          }
+        }
+        .totalElectedAmount,
+        .maleAmount,
+        .femaleAmount {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+}

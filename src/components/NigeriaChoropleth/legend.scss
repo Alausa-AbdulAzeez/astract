@@ -1,0 +1,56 @@
+// .ref {
+//   width: 100%;
+//   height: 100%;
+//   background-color: red;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 100px;
+// }
+
+.zoomWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+
+  right: 50px;
+  font-size: large;
+  top: 50px;
+
+  .zoomIn,
+  .zoomOut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: silver;
+    cursor: pointer;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 4px 0px 0px;
+    color: black;
+    font-size: larger;
+  }
+
+  .zoomOut {
+    margin-top: 15px;
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
+.mapWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.state-label {
+  cursor: pointer;
+}
+
+.state:hover {
+  cursor: pointer;
+}

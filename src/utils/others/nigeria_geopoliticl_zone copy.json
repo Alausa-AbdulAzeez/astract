@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "North Central"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [4.26782, 10.99984],
+            [4.26782, 9.35472],
+            [7.79382, 9.35472],
+            [7.79382, 10.99984],
+            [4.26782, 10.99984]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "North East"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.37898, 13.79013],
+            [9.37898, 10.99782],
+            [14.59146, 10.99782],
+            [14.59146, 13.79013],
+            [9.37898, 13.79013]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "North West"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [3.48527, 14.54226],
+            [3.48527, 10.99749],
+            [7.70559, 10.99749],
+            [7.70559, 11.99748],
+            [13.78487, 11.99748],
+            [13.78487, 14.54226],
+            [3.48527, 14.54226]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "South East"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [6.91148, 7.58216],
+            [6.91148, 4.27883],
+            [9.39774, 4.27883],
+            [9.39774, 7.58216],
+            [6.91148, 7.58216]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "South South"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [5.19427, 4.28053],
+            [5.19427, 2.82237],
+            [8.05785, 2.82237],
+            [8.05785, 4.28053],
+            [5.19427, 4.28053]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone": "South West"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [2.6696, 7.36651],
+            [2.6696, 4.1221],
+            [6.39078, 4.1221],
+            [6.39078, 7.36651],
+            [2.6696, 7.36651]
+          ]
+        ]
+      }
+    }
+  ]
+}

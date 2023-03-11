@@ -1,0 +1,27 @@
+.topbar {
+  padding: 20px 0px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+
+    li {
+      .logoImg {
+        width: 120px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .signUpBtn {
+      padding: 10px 20px;
+      background-color: var(--main-yellow-color);
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+}

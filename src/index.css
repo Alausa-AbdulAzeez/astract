@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+:root {
+  font-family: 'Jost', sans-serif;
+  --main-color: #1f2335;
+  --main-color-darker: #1c2031;
+  --main-color-darkest: #1b1f30;
+  --main-color-darkestt: #131726;
+  --main-yellow-color: #e5b805;
+  --main-green-color: #0aa83f;
+  --main-red-color: #d62b3c;
+  --light-blue-color: #64ccff;
+  --white-color: #ffffff;
+}
+
+ul,
+li {
+  list-style-type: none;
+  text-decoration: 0;
+  margin: 0;
+  padding: 0;
+}
